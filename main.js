@@ -9,6 +9,7 @@
 	$(".left-toolbox").remove();
 	$(".template-box").remove();
 	$(".bottom-pub-footer").remove();
+	$("main").css('display','content');
 
 	window.print();
 })();
