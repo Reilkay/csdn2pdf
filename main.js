@@ -8,7 +8,7 @@
 	$(".tool-box").remove();
 	$(".left-toolbox").remove();
 	$(".template-box").remove();
-	$(".bottom-pub-footer").remove();
+	$("#pub-footerall").remove();
 	$("main").css('display','content');
 
 	window.print();
